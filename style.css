@@ -14,24 +14,45 @@ body {
   height: 32rem;
   background: #777;
   color: white;
+  background-size: cover;
 }
 
 .carousel-caption {
   bottom: 5rem;
   z-index: 10;
 }
+.overlay-image {
+  position: absolute;
+  background-size: cover;
+  height: 32rem;
+  background: #777;
+  color: white;
+  background-size: cover;
+}
 
-.container {
+/* .container {
 position: absolute;
 bottom: 0;
 left: 0;
 right: 0;
 padding-bottom: 150px;
+
+} */
+
+.rounded-circle {
+  background-image: url(./icon-1.png);
+  background-size: contain; 
+ 
+}
+
+.col-md-5 {
+  background-image: url(./slide-1.jpg);
+  height: 500px;
+  
 }
 
 
-
-.container-marketing .col-lg-4 {
+.marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
